@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<title>beautifulSelect</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body{
+				text-align: center;
+			}
+			select{
+				margin: 18px
+			}
+			div{
+				word-break:break-all;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>welcom to beautifulSelect.js</h1>
+		<select id="be" style="width:100px;height:30px;">
+			<option value="0">00000</option>
+			<option value="1">11111</option>
+			<option value="2">22222</option>
+			<option value="3">33333</option>
+			<option value="4">44444</option>
+			<option value="5">55555</option>
+			<option value="6">66666</option>
+		</select>
+		<select style="height:30px;width:80px">
+			<option value="0">00000</option>
+			<option value="1">11111</option>
+			<option value="2">22222</option>
+			<option value="3">33333</option>
+			<option value="4">44444</option>
+			<option value="5">55555</option>
+			<option value="6">66666</option>
+			<option value="7">77777</option>
+			<option value="8">88888</option>
+		</select>
+		<script src="jquery-1.11.1.js"></script>
+		<script src="../src/beautifulSelect.js"></script>
+		<script>
+			$("select").beautifulSelect();
+			$("#be").beautifulSelect({
+				openMethod:"",
+				box:{
+					style:{
+						border:"solid red 2px"
+					},
+					focusStyle:{
+						border:"solid red 2px",
+						boxShadow:"0 0 5px red"
+					}
+				},
+				triangle:{
+					style:{
+						color:"red"
+					},
+					focusStyle:{
+						color:"red"
+					}
+				},
+				options:{
+					hoverStyle:{
+						background:"#f33"
+					}
+				},
+				divider:"solid #f33 1px"
+			});
+		</script>
+	</body>
+</html>
