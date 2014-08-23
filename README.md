@@ -104,7 +104,8 @@ beautifulSelect.js
 ####options：object，列表中的选项
 	style：object，列表展开时，列表选项默认的常态样式，可以是任何合法的css属性样式
 	hoverStyle：object，列表选项的hover样式，可以是任何合法的css属性样式
-	*注意：options中并没有focusStyle属性
+	*注意：
+	       options中并没有focusStyle属性
 	       因为对于选项而言列表展开时的样式也就是常态样式，即上面的style属性
 ####triangle：object，下拉列表右边的小三角形
 	style：object，小三角形默认的样式，可以是任何合法的css属性样式
