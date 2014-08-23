@@ -96,7 +96,19 @@ beautifulSelect.js
 		}
 	}
 
-从上面参数可以看出beautifulSelect可供设置样式的共有四个部分：
-####box：下拉列表的外框
-####options：列表中的选项
-####triangle：下拉列表右边的小三角形
+从上面参数可以看出beautifulSelect共有四个部分可以设置：
+####box：object，下拉列表的外框样式
+	style：object，常态时的样式，可以是任何合法的css属性样式
+	hoverStyle：object，hover时的样式，可以是任何合法的css属性样式
+	focusStyle：object，列表展开时列表框的样式，可以是任何合法的css属性样式
+####options：object，列表中的选项
+	style：object，列表展开时，列表选项默认的常态样式，可以是任何合法的css属性样式
+	hoverStyle：object，列表选项的hover样式，可以是任何合法的css属性样式
+	*注意：options中并没有focusStyle属性，因为对于选项而言列表展开时的样式也就是常态样式，即上面的style属性
+####triangle：object，下拉列表右边的小三角形
+	style：object，小三角形默认的样式，可以是任何合法的css属性样式
+	hoverStyle：object，列表hover时小三角形的样式，可以是任何合法的css属性样式
+	focusStyle：object，列表展开后小三角形的样式，可以是任何合法的css属性样式
+####divider：string，列表点击开后表头与列表选项之间的分割线
+	此属性的值只能是字符串，并且只能是css中border的综合属性字符串，如"solid #f00 1px"
+	
