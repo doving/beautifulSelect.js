@@ -96,7 +96,8 @@ beautifulSelect.js
 		}
 	}
 
+
 	从上面参数可以看出beautifulSelect可供设置样式的共有四个部分：
-	box：下拉列表的外框
-	options：列表中的选项
-	triangle：下拉列表右边的小三角形
+	####box：下拉列表的外框
+	####options：列表中的选项
+	####triangle：下拉列表右边的小三角形
