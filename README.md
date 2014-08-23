@@ -11,31 +11,31 @@ beautifulSelect.js
 
 ####有参数使用：
 	$("select").beautifulSelect({
-				box:{
-					style:{
-						border:"solid red 2px"
+					box:{
+						style:{
+							border:"solid red 2px"
+						},
+						focusStyle:{
+							border:"solid red 2px",
+							boxShadow:"0 0 5px red"
+						}
 					},
-					focusStyle:{
-						border:"solid red 2px",
-						boxShadow:"0 0 5px red"
-					}
-				},
-				triangle:{
-					style:{
-						color:"red"
+					triangle:{
+						style:{
+							color:"red"
+						},
+						focusStyle:{
+							color:"red"
+						}
 					},
-					focusStyle:{
-						color:"red"
-					}
-				},
-				options:{
-					hoverStyle:{
-						background:"#f33"
-					}
-				},
-				divider:"solid #f33 1px"
-			});
-
+					options:{
+						hoverStyle:{
+							background:"#f33"
+						}
+					},
+					divider:"solid #f33 1px"
+				});
+	
 
 
 插件的参数opt
