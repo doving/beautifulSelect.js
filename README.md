@@ -4,10 +4,46 @@ beautifulSelect
 基于jquery的美化select表单元素的插件
 
 
+
+使用方法
+================
+无参数使用：
+$("select").beautifulSelect();
+
+有参数使用：
+$("select").beautifulSelect({
+				openMethod:"",
+				box:{
+					style:{
+						border:"solid red 2px"
+					},
+					focusStyle:{
+						border:"solid red 2px",
+						boxShadow:"0 0 5px red"
+					}
+				},
+				triangle:{
+					style:{
+						color:"red"
+					},
+					focusStyle:{
+						color:"red"
+					}
+				},
+				options:{
+					hoverStyle:{
+						background:"#f33"
+					}
+				},
+				divider:"solid #f33 1px"
+			});
+
+
+
 插件的参数opt
 ===============
+下面是beautifulSelect控件默认参数对象
 
-//默认参数对象
 var opt = {
 	//列表头与列表项分割线的样式
 	divider : "solid #ccc 1px",
