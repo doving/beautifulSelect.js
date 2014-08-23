@@ -1,7 +1,6 @@
 beautifulSelect
 ===============
-
-基于jquery的美化select表单元素的插件
+		基于jquery的美化select表单元素的插件
 
 
 
@@ -12,7 +11,6 @@ $("select").beautifulSelect();
 
 有参数使用：
 $("select").beautifulSelect({
-				openMethod:"",
 				box:{
 					style:{
 						border:"solid red 2px"
